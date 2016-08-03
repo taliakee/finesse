@@ -15,16 +15,16 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="Filter.css">
-		<script src="FinesseActions.js"></script>
+		<script src="FilterActions.js"></script>
 
 
 	</head>
 	<!-- Navigation Bar -->
-	<body>
+	<body id="main">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
   			<div class="container-fluid">
     			<div class="navbar-header">
-      				<a class="navbar-brand" href="#">Finesse</a>
+      				<a class="navbar-brand" href="Finessehome.html">Finesse</a>
     			</div>
     			<ul class="nav navbar-nav">
       				<li class="active"><a href="Finessehome.html">Home</a></li>
@@ -40,65 +40,73 @@
 		<br>
 		<br>
 		<br>
+	</body>
+	<body id="FilterType">
 		<h3 >Type of workout:</h3>
 		<br>
-		<div class="form-check">
-	  		<label class="form-check-label">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Abs" value="option1">
-	    		Abs
-	  		</label>
-		</div>
-		<div class="form-check">
-	  		<label class="form-check-label">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Butt" value="option2">
-	    		Butt
-	  		</label>
-		</div>
-		<div class="form-check">
-	  		<label class="form-check-label">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Arms" value="option3">
-	    		Arms
-	  		</label>
-		</div>
-		<div class="form-check">
-	  		<label class="form-check-label">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Legs" value="option3">
-	    		Legs
-	  		</label>
-		</div>
-		<div class="form-check">
-	  		<label class="form-check-label">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="AllAround" value="option3">
-	    		All Around
-	  		</label>
-		</div>
+		<form id="Type" action="action_page.php" method="get">
+			<div class="form-check">
+		  		<label class="form-check-label">
+		    		<input class="form-check-input" type="radio" name="exampleRadios" id="Abs" value="option1">
+		    		Abs
+		  		</label>
+			</div>
+			<div class="form-check">
+		  		<label class="form-check-label">
+		    		<input class="form-check-input" type="radio" name="exampleRadios" id="Butt" value="option2">
+		    		Butt
+		  		</label>
+			</div>
+			<div class="form-check">
+		  		<label class="form-check-label">
+		    		<input class="form-check-input" type="radio" name="exampleRadios" id="Arms" value="option3">
+		    		Arms
+		  		</label>
+			</div>
+			<div class="form-check">
+		  		<label class="form-check-label">
+		    		<input class="form-check-input" type="radio" name="exampleRadios" id="Legs" value="option3">
+		    		Legs
+		  		</label>
+			</div>
+			<div class="form-check">
+		  		<label class="form-check-label">
+		    		<input class="form-check-input" type="radio" name="exampleRadios" id="AllAround" value="option3">
+		    		All Around
+		  		</label>
+			</div>
+		</form>	
 	</body>
 <!-- Filter selection difficulty -->
-	<body>
+	<body id="FilterDiff">
 		<br>
 		<h3>Difficulty</h3>
-		<form role="form">
+		<form role="form" id="Difficulty">
 			<label class="radio-inline">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Abs" value="option1">
+	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Drop1" value="option1">
 	    		<img src="sweat.png" width="50" heigth="50">
 	  		</label>
 	  		<label class="radio-inline">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Abs" value="option1">
+	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Drop2" value="option1">
 	    		<img src="sweat.png" width="50" heigth="50">
 	  		</label>
 	  		<label class="radio-inline">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Abs" value="option1">
+	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Drop3" value="option1">
 	    		<img src="sweat.png" width="50" heigth="50">
 	  		</label>
 	  		<label class="radio-inline">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Abs" value="option1">
+	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Drop4" value="option1">
 	    		<img src="sweat.png" width="50" heigth="50">
 	  		</label>
 	  		<label class="radio-inline">
-	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Abs" value="option1">
+	    		<input class="form-check-input" type="radio" name="exampleRadios" id="Drop5" value="option1">
 	    		<img src="sweat.png" width="50" heigth="50">
 	  		</label>
 		</form>
+	</body>
 
+	<body>
+		<br>
+		<a id="SubmitButton" href="#"><input type="button" onclick="Submit()" value="Submit"></a>
 	</body>
 </html>
