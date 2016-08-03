@@ -16,7 +16,18 @@ function FeaturedVideos(){
 					"https://www.youtube.com/embed/PAo_JpDNQY8",
 					"https://www.youtube.com/embed/3TSD9TJ5sVM",
 					"https://www.youtube.com/embed/ERHEoQyBABU",
-					"https://www.youtube.com/embed/vrHDaC30dqw"]
+					"https://www.youtube.com/embed/vrHDaC30dqw"
+					"https://www.youtube.com/embed/PWEdJRRndkQ",
+					"https://www.youtube.com/embed/lujcE3FGL_U",
+					"https://www.youtube.com/embed/-sICMHs301M",
+					"https://www.youtube.com/embed/IJro-Hd9wK4",
+					"https://www.youtube.com/embed/RDQmnzuE2q4",
+					"https://www.youtube.com/embed/LAQK22crBWc",
+					"https://www.youtube.com/embed/oegRlg9V4q8",
+					"https://www.youtube.com/embed/AdWyo_3KrfA",
+					"https://www.youtube.com/embed/sKIqLUlPGBw",
+					"https://www.youtube.com/embed/UqdBv9MJcXc",
+					"https://www.youtube.com/embed/kyVmAO50LyY"]
 
 	var numbervid = allvideos.length;
 	var numberfeatured = 14;
