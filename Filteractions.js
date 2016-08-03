@@ -1,21 +1,12 @@
 function Submit(){
 	var workout = document.getElementById('Type');
-	// var diff = document.getElementById('Difficulty');
 	var link = document.getElementById('SubmitButton');
-
-	// if workout== "Abs" {
-	// 	link.href = "Finessehome.html";
-	// 	// link.setAttribute("href","Finessehome.html");
-
-	// }
 
 	if (document.getElementById('Abs').checked){
 		if (document.getElementById('Drop1').checked){
 			link.href="Abs1.html";
-			//link.href="Abs1.html";
 		}else if (document.getElementById('Drop2').checked){
 			link.href="Abs2.html";
-			//link.href="Abs2.html";
 		}else if (document.getElementById('Drop3').checked){
 			link.href="Abs3.html";
 		}else if (document.getElementById('Drop4').checked){
