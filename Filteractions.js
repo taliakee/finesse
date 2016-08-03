@@ -11,13 +11,13 @@ function Submit(){
 
 	if (document.getElementById('Abs').checked){
 		if (document.getElementById('Drop1').checked){
-			link.href="Finessehome.html";
+			link.href="Abs1.html";
 			//link.href="Abs1.html";
 		}else if (document.getElementById('Drop2').checked){
-			link.href="FinesseFeatured.html";
+			link.href="Abs2.html";
 			//link.href="Abs2.html";
 		}else if (document.getElementById('Drop3').checked){
-			link.href="contact_us2.html";
+			link.href="Abs3.html";
 		}else if (document.getElementById('Drop4').checked){
 			link.href="Abs4.html";
 		}else{
