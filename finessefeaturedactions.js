@@ -16,7 +16,7 @@ function FeaturedVideos(){
 					"https://www.youtube.com/embed/PAo_JpDNQY8",
 					"https://www.youtube.com/embed/3TSD9TJ5sVM",
 					"https://www.youtube.com/embed/ERHEoQyBABU",
-					"https://www.youtube.com/embed/vrHDaC30dqw"
+					"https://www.youtube.com/embed/vrHDaC30dqw",
 					"https://www.youtube.com/embed/PWEdJRRndkQ",
 					"https://www.youtube.com/embed/lujcE3FGL_U",
 					"https://www.youtube.com/embed/-sICMHs301M",
