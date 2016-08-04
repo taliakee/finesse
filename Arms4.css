@@ -13,3 +13,16 @@ img{
 img:hover{
 	opacity:1.0;
 }
+
+h2 span{
+	color: white;
+	font: bold 20px/40px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.7);
+	padding: 10px;
+	position: absolute;
+	top: 1217px;
+	left: 490px;
+	width: 23%;
+}
