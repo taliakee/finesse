@@ -4,15 +4,15 @@ function Submit(){
 
 	if (document.getElementById('Abs').checked){
 		if (document.getElementById('Drop1').checked){
-			link.href="Abs1.html";
+			link.href="abs1.html";
 		}else if (document.getElementById('Drop2').checked){
 			link.href="Abs2.html";
 		}else if (document.getElementById('Drop3').checked){
-			link.href="Abs3.html";
+			link.href="abs3.html";
 		}else if (document.getElementById('Drop4').checked){
-			link.href="Abs4.html";
+			link.href="abs4.html";
 		}else{
-			link.href="Abs5.html";
+			link.href="abs5.html";
 		}
 	}
 
@@ -32,15 +32,15 @@ function Submit(){
 
 	else if(document.getElementById('Legs').checked){
 		if (document.getElementById('Drop1').checked){
-			link.href="Legs1.html";
+			link.href="legs1.html";
 		}else if (document.getElementById('Drop2').checked){
-			link.href="Legs2.html";
+			link.href="legs2.html";
 		}else if (document.getElementById('Drop3').checked){
-			link.href="Legs3.html";
+			link.href="legs3.html";
 		}else if (document.getElementById('Drop4').checked){
-			link.href="Legs4.html";
+			link.href="legs4.html";
 		}else{
-			link.href="Legs5.html";
+			link.href="legs5.html";
 		}
 	}
 
@@ -60,15 +60,15 @@ function Submit(){
 
 	else{
 		if (document.getElementById('Drop1').checked){
-			link.href="AllAround1.html";
+			link.href="Allaround1.html";
 		}else if (document.getElementById('Drop2').checked){
-			link.href="AllAround2.html";
+			link.href="Allaround2.html";
 		}else if (document.getElementById('Drop3').checked){
-			link.href="AllAround3.html";
+			link.href="Allaround3.html";
 		}else if (document.getElementById('Drop4').checked){
-			link.href="AllAround4.html";
+			link.href="Allaround4.html";
 		}else{
-			link.href="AllAround5.html";
+			link.href="Allaround5.html";
 		}
 	}
 }
