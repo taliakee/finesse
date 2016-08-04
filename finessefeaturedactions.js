@@ -1,4 +1,4 @@
-function FeaturedVideos(){
+function FeaturedVideos(){ //Randomize function
 	var allvideos= ["https://www.youtube.com/embed/roPGuZEzeiw?list=PLSCcAGyv98icX4pV3k5uIYtzjaVw12myt",
 					"https://www.youtube.com/embed/od0j4aNDGKM",
 					"https://www.youtube.com/embed/kzYQxZPZtNM",
@@ -38,16 +38,20 @@ function FeaturedVideos(){
 					"https://www.youtube.com/embed/5XJr4-6JZU4",
 					"https://www.youtube.com/embed/c7ZYCXu2hco"]
 
-	var numbervid = allvideos.length;
+	var numbervid = allvideos.length; //38
 	var numberfeatured = 14;
-	var	randomold = [];
+	var	randomold = []; //new array with nothing, length of 0
 	for (i = 0; i < numberfeatured; i++){
 		var random = Math.floor(Math.random() * numbervid);
 		var postvid = document.getElementById("Video" + i);
-		var done = randomold.length;
-		for (r = 0; r < done; r++){
+		var used = randomold.length;
+		var r = 0;
+		while (r < used){
 			if (random == randomold[r]){
 				random = Math.floor(Math.random() * numbervid);
+				r = 0;
+			}else{
+				r++;
 			}
 		}
 		var link = allvideos[random];
