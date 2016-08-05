@@ -22,3 +22,8 @@ h2 span{
 	left: 450px;
 	width: 30%;
 }
+
+#label { 
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+ }

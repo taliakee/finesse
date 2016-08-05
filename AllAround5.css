@@ -23,3 +23,8 @@ img{
 img:hover{
 	opacity: 1.0;
 }
+
+#label { 
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+ }
