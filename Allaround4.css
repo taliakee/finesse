@@ -1,5 +1,6 @@
 body{
 	margin-left: 10px;
+	font-family: 'Playfair Display', serif;
 }
 
 img{
@@ -28,7 +29,3 @@ h2 span{
 	text-align: center;
  }
 
- .navbar{
- 	font-family: 'Playfair Display', serif;
-
- }
