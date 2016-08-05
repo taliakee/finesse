@@ -1,6 +1,6 @@
 function random(){
 	var allvids = ["https://www.youtube.com/embed/2WHZeSGLpGw",
-					"https://www.youtube.com/embed/afghBre8NlI",
+					"https://www.youtube.com/embed/1k2WWxA91Ek",
 					"https://www.youtube.com/embed/iP7Dt_0UkYw?list=PLSCcAGyv98ifvpzdjtkLBPO76bDl9_fYz",
 					"https://www.youtube.com/embed/ZkBCGY4SBwc?list=PLSCcAGyv98ifvpzdjtkLBPO76bDl9_fYz",
 					"https://www.youtube.com/embed/tsNkjdwMuwA?list=PLSCcAGyv98ifvpzdjtkLBPO76bDl9_fYz",
