@@ -1,6 +1,6 @@
 #label{
 	font-family: 'Playfair Display', serif;
-	text-align;center
+	text-align:center;
 }
 h1 {
 	margin-left: 10px;
@@ -27,7 +27,3 @@ h2 span{
 	width: 25%;
 }
 
-.navbar{
-	font-family: 'Playfair Display', serif;
-
-}

@@ -1,6 +1,6 @@
 #label{
 	font-family: 'Playfair Display', serif;
-	text-align;center
+	text-align: center;
 }
 body {
 	margin-left: 10px;
@@ -12,9 +12,4 @@ img{
 
 img:hover{
 	opacity: 1.0;
-}
-
-.navbar{
-	font-family: 'Playfair Display', serif;
-
 }
