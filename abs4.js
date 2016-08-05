@@ -1,3 +1,5 @@
+// abs4.js
+//JavaScript file for abs4.html
 function random(){
 	var allvids = ["https://www.youtube.com/embed/3g70e2TP1YI",
 					"https://www.youtube.com/embed/6zseFMc42m8",
@@ -21,12 +23,12 @@ function random(){
 			if (random == randomold[r]){ //check if number is in the used
 				random = Math.floor(Math.random() * numbervid); //changes to a random number
 				r = 0; //restart loop
-			}else{ //continue
+			}else{ //continue searching
 				r++;
 			}
 		}
 		var link = allvids[random]; //get the link
-		postvid.src = link; //change the 
-		randomold.push(random); //stores numbers (index number)
+		postvid.src = link; //change the link
+		randomold.push(random); //stores the number (index number)
 	}
 }

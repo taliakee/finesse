@@ -1,3 +1,5 @@
+//abs5.js
+//JavaScript file for abs5.html
 function random(){
 	var allvids = ["https://www.youtube.com/embed/roPGuZEzeiw?list=PLSCcAGyv98icX4pV3k5uIYtzjaVw12myt",
 					"https://www.youtube.com/embed/od0j4aNDGKM",
@@ -21,12 +23,12 @@ function random(){
 			if (random == randomold[r]){ //check if number is in the used
 				random = Math.floor(Math.random() * numbervid); //changes to a random number
 				r = 0; //restart loop
-			}else{ //continue
+			}else{ //continue searching
 				r++;
 			}
 		}
 		var link = allvids[random]; //get the link
-		postvid.src = link; //change the 
-		randomold.push(random); //stores numbers (index number)
+		postvid.src = link; //change the link
+		randomold.push(random); //stores the number (index number)
 	}
 }

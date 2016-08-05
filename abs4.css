@@ -1,9 +1,10 @@
-body {
-	margin-left: 10px;
-	font-family: 'Playfair Display', serif;
+/*abs4.css*/
+/*CSS file for abs4.html and abs4more.html*/
+body{
+	font-family: 'Playfair Display', serif; /*Change font to Playfair Display*/
+	margin-left: 10px; /*Create are margin for the pictures so that they aren't against the edge*/
 }
 
 #label{
-	font-family: 'Playfair Display', serif;
-	text-align:center;
+	text-align: center; /*Moves just the title to the middle*/
 }
