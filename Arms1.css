@@ -1,3 +1,4 @@
+
 body{
 	background-color: white;
 	margin-left: 10px;
@@ -24,8 +25,8 @@ h3 span{
 	background: rgba(0,0,0,0.7);
 	padding: 10px;
 	position: absolute;
-	top: 850px;
+	top: 1600px;
 	left: 498px;
-	width: 23%;
+	width: 25%;
 }
 
