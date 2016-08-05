@@ -9,3 +9,8 @@ img{
 img:hover{
 	opacity: 1.0;
 }
+
+.navbar{
+	font-family: 'Playfair Display', serif;
+
+}
