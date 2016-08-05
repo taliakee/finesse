@@ -5,11 +5,11 @@ h3 {
 body {
 	background-image: url("white.png");
 	background-repeat: no-repeat;
-/*	background-size: width:;*/
 	background: opacity: 0.5;
 	margin-left: 500px;
 	color: white;
 	background: opacity: 0.5;
+	font-family: 'Playfair Display', serif;
 }
 
 #label{

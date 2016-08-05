@@ -5,6 +5,8 @@ p {
     background-image: url("hello.jpg");
 	background-size: width:1280px; height:900px;
 	background: opacity: 0.5;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
 }
 img{
 	opacity: .6;
