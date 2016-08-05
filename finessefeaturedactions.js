@@ -29,7 +29,7 @@ function FeaturedVideos(){ //Randomize function
 					"https://www.youtube.com/embed/UqdBv9MJcXc",
 					"https://www.youtube.com/embed/kyVmAO50LyY",
 					"https://www.youtube.com/embed/FYr2g1YtXX8",
-					"ttps://www.youtube.com/embed/iKhUuTcx1Zk",
+					"https://www.youtube.com/embed/iKhUuTcx1Zk",
 					"https://www.youtube.com/embed/iKSnDjSteoI",
 					"https://www.youtube.com/embed/BL6l9xdm2zo",
 					"https://www.youtube.com/embed/2dFcYWpWfS8",
@@ -38,25 +38,26 @@ function FeaturedVideos(){ //Randomize function
 					"https://www.youtube.com/embed/5XJr4-6JZU4",
 					"https://www.youtube.com/embed/c7ZYCXu2hco"]
 
-	var numbervid = allvideos.length; //38
-	var numberfeatured = 14;
+	var numbervid = allvideos.length; //how many videos
+	var numberfeatured = 14; //number of videos displayed
 	var	randomold = []; //new array with nothing, length of 0
-	for (i = 0; i < numberfeatured; i++){
-		var random = Math.floor(Math.random() * numbervid);
-		var postvid = document.getElementById("Video" + i);
-		var used = randomold.length;
-		var r = 0;
-		while (r < used){
-			if (random == randomold[r]){
-				random = Math.floor(Math.random() * numbervid);
-				r = 0;
-			}else{
+	for (i = 0; i < numberfeatured; i++){ //loop through to fill the displayed videos
+		var random = Math.floor(Math.random() * numbervid); //choose random number within 0-amount of videos
+		var postvid = document.getElementById("Video" + i); //get content of video0...video1...video2...
+		var used = randomold.length; //how many videos used
+		var r = 0; //counter
+		while (r < used){ //loop through all of the used
+			if (random == randomold[r]){ //check if number is in the used
+				random = Math.floor(Math.random() * numbervid); //changes to a random number
+				r = 0; //restart loop
+			}else{ //continue
 				r++;
 			}
 		}
-		var link = allvideos[random];
-		postvid.src = link;
-		randomold.push(random);
+
+		var link = allvideos[random]; //get the link
+		postvid.src = link; //change the 
+		randomold.push(random); //stores numbers (index number)
 	}
 }
 
