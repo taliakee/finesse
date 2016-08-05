@@ -2,7 +2,9 @@ function random(){
 	var allvids = ["https://www.youtube.com/embed/c7ZYCXu2hco",
 					"https://www.youtube.com/embed/iCeGf5MZJto",
 					"https://www.youtube.com/embed/kN77O3hT114",
-					"https://www.youtube.com/embed/TFJt322szc4"] //add new videos HERE
+					"https://www.youtube.com/embed/TFJt322szc4",
+					"https://www.youtube.com/embed/i5nbFRUa79Q",
+					"https://www.youtube.com/embed/6ANvdueuTfw"] //add new videos HERE
 
 	var numbervid = allvids.length; //how many videos
 	var numberfeatured = 4; //number of videos displayed
