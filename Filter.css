@@ -3,9 +3,9 @@ h3 {
 }
 
 body {
-	background-image: url("trybackground.jpg");
+	background-image: url("trial.png");
 	background-repeat: no-repeat;
-	background-size: width:;
+/*	background-size: width:;*/
 	background: opacity: 0.5;
 	margin-left: 500px;
 	color: white;
