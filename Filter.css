@@ -3,10 +3,12 @@ h3 {
 }
 
 body {
-	background-image: url("trial.png");
+	background-image: url("lol.png");
 	background-repeat: no-repeat;
 /*	background-size: width:;*/
 	background: opacity: 0.5;
 	margin-left: 500px;
 	color: white;
+	background: opacity: 0.5;
 }
+
