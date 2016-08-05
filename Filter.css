@@ -3,7 +3,7 @@ h3 {
 }
 
 body {
-	background-image: url("lol.png");
+	background-image: url("white.png");
 	background-repeat: no-repeat;
 /*	background-size: width:;*/
 	background: opacity: 0.5;
@@ -12,3 +12,7 @@ body {
 	background: opacity: 0.5;
 }
 
+#label{
+	font-family: 'Playfair Display', serif;
+	color: black;
+}
