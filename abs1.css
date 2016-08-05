@@ -4,7 +4,7 @@ body{
 
 #label{
 	font-family: 'Playfair Display', serif;
-	text-align;center
+	text-align: center;
 }
 	
 img{
@@ -43,6 +43,6 @@ h4 span{
 	width: 30%;
 }
 
-.navbar{
+#top{
 	font-family:'Playfair Display', serif;
 }

@@ -1,10 +1,7 @@
-
-}
 body{
 	margin-left: 10px;
-	#label{
 	font-family: 'Playfair Display', serif;
-	text-align;center
+	text-align: center;
 
 }
 
@@ -31,8 +28,4 @@ h3 span{
 	top: 820px;
 	left: 480px;
 	width: 23%;
-}
-
-.navbar{
-	font-family:'Playfair Display', serif;
 }

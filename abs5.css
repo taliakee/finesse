@@ -1,16 +1,9 @@
-
-}
 body{
 	margin-left: 10px;
-<<<<<<< Updated upstream
+	font-family: 'Playfair Display', serif;
 }
 
-.navbar{
+#label{
 	font-family: 'Playfair Display', serif;
-
-=======
-	#label{
-	font-family: 'Playfair Display', serif;
-	text-align;center
->>>>>>> Stashed changes
+	text-align: center;
 }
