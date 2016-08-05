@@ -4,7 +4,8 @@ h3 {
 
 body {
 	background-image: url("stretch.jpg");
-	background-size: width:1500px; height:900px;
+	background-repeat: no-repeat;
+	background-size: width:1500px;height:500px;
 	background: opacity: 0.5;
 	margin-left: 500px;
 	color: white;
