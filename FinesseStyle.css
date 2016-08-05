@@ -4,6 +4,10 @@ body {
 	background: opacity: 0.5;
 }
 
+#nav {
+	font-family: 'Playfair Display', serif;
+}
+
 #AboutUs{
 	font-size: 70px;
 	color: white;
