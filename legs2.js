@@ -1,18 +1,17 @@
 function random(){
-	var allvids = ["https://www.youtube.com/embed/yhTxFOVAZtg",
-					"https://www.youtube.com/embed/7iUK0YZri2k",
-					"https://www.youtube.com/embed/7QrDwd9PB4c",
-					"https://www.youtube.com/embed/AGYM9Quh9J0",
-					"https://www.youtube.com/embed/-8AnVj7T8Q4",
-					"https://www.youtube.com/embed/_GLPpNEkswQ",
-					"https://www.youtube.com/embed/CSdn8tH-tzY?list=PLSCcAGyv98ieU4iS1nGOuhyyjG3RyLhTF",
-					"https://www.youtube.com/embed/UT4UlsoQchY?list=PLSCcAGyv98ieU4iS1nGOuhyyjG3RyLhTF",
-					"https://www.youtube.com/embed/QECX7YvzF_c",
-					"https://www.youtube.com/embed/mfP1OG7rs_o"] //add new videos HERE
+	var allvids = ["https://www.youtube.com/embed/j6gf8r6e3Kc",
+					"https://www.youtube.com/embed/cRuWfPdeGhQ",
+					"https://www.youtube.com/embed/g01HAvJNSIg",
+					"https://www.youtube.com/embed/HR8EmC5eiEI",
+					"https://www.youtube.com/embed/7I-c-yw5ZrQ?list=PLSCcAGyv98ieU4iS1nGOuhyyjG3RyLhTF",
+					"https://www.youtube.com/embed/7J9RA6mfONE",
+					"https://www.youtube.com/embed/SBHA1iEHRko",
+					"https://www.youtube.com/embed/Kwp-axDkiVo"] //add new videos HERE
 
 	var numbervid = allvids.length; //how many videos
 	var numberfeatured = 4; //number of videos displayed
 	var	randomold = []; //new array with nothing, length of 0
+	
 	for (i = 0; i < numberfeatured; i++){ //loop through to fill the displayed videos
 		var random = Math.floor(Math.random() * numbervid); //choose random number within 0-amount of videos
 		var postvid = document.getElementById("Video" + i); //get content of video0...video1...video2...
