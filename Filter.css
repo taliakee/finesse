@@ -1,11 +1,11 @@
 h3 {
-	color: white;
+	color: black;
 }
 
 body {
-	background-image: url("stretch.jpg");
+	background-image: url("trybackground.jpg");
 	background-repeat: no-repeat;
-	background-size: width:1500px;height:500px;
+	background-size: width:;
 	background: opacity: 0.5;
 	margin-left: 500px;
 	color: white;
