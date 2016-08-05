@@ -2,7 +2,7 @@ function random(){
 	var allvids = ["https://www.youtube.com/embed/MO87_yr7pjo",
 					"https://www.youtube.com/embed/-b9nC6Ry-Kg",
 					"https://www.youtube.com/embed/DPWciUzPOJM",
-					"https://www.youtube.com/embed/x8rUKK8E19k?list=PLSCcAGyv98icWAjrUD29TYLhJtRAGABp2"
+					"https://www.youtube.com/embed/x8rUKK8E19k?list=PLSCcAGyv98icWAjrUD29TYLhJtRAGABp2",
 					"https://www.youtube.com/embed/cF0niVnmMY0",
 					"https://www.youtube.com/embed/EBQq6Fuhzt0",
 					"https://www.youtube.com/embed/a42wtkZsAfI",
