@@ -1,12 +1,11 @@
 function random(){
-	var allvids = ["https://www.youtube.com/embed/PAo_JpDNQY8",
-					"https://www.youtube.com/embed/yplP5cLuyf4",
-					"https://www.youtube.com/embed/DK_0lJ2MzUI",
-					"https://www.youtube.com/embed/lV6a7aGM9vo",
-					"https://www.youtube.com/embed/YZX1Xf59bgQ?list=PLSCcAGyv98idFLg6YYVXAh9vyJJ_mWne_",
-					"https://www.youtube.com/embed/PUgcHQJuQys?list=PLSCcAGyv98idFLg6YYVXAh9vyJJ_mWne_",
-					"https://www.youtube.com/embed/-SN-TQDqWXU?list=PLSCcAGyv98idFLg6YYVXAh9vyJJ_mWne_",
-					"https://www.youtube.com/embed/WWQtEfZMTB8?list=PLSCcAGyv98idFLg6YYVXAh9vyJJ_mWne_"] //add new videos HERE
+	var allvids = ["https://www.youtube.com/embed/ZhQsXN-Ng8E",
+					"https://www.youtube.com/embed/Gd_rkucdlxY",
+					"https://www.youtube.com/embed/MJ4WtM35NQQ",
+					"https://www.youtube.com/embed/6rT-6-ZpeNw",
+					"https://www.youtube.com/embed/ZRS0Lvi1OPY",
+					"https://www.youtube.com/embed/JgJTg-Vr_YI",
+					"https://www.youtube.com/embed/NXLc7ekmUQg"] //add new videos HERE
 
 	var numbervid = allvids.length; //how many videos
 	var numberfeatured = 4; //number of videos displayed
