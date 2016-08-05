@@ -2,3 +2,8 @@ body{
 	background-color: white;
 	margin-left: 10px;
 }
+
+#label { 
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+ }
