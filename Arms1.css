@@ -1,11 +1,12 @@
 body{
 	background-color: white;
 	margin-left: 10px;
+	font-family: 'Playfair Display', serif;
 }
 
 #label{
 	font-family: 'Playfair Display', serif;
-	text-align;center
+	text-align: center;
 }
 
 img{
@@ -28,7 +29,3 @@ h3 span{
 	width: 23%;
 }
 
-.navbar{
-	font-family: 'Playfair Display', serif;
-
-}

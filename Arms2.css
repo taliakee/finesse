@@ -1,12 +1,9 @@
 #label{
 	font-family: 'Playfair Display', serif;
-	text-align;center
+	text-align: center;
+	font-family: 'Playfair Display', serif;
 }
 #body{
 	margin-left: 10px;
 }
 
-.navbar{
-	font-family: 'Playfair Display', serif;
-
-}
