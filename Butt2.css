@@ -1,10 +1,10 @@
+/*Butt2.css*/
+/*CSS file for Butt2.html and Butt2more.html*/
 body{
-	margin-left: 10px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif; /*Change font to Playfair Display*/
+	margin-left: 10px; /*Create are margin for the pictures so that they aren't against the edge*/
 }
-	
+
 #label{
-	text-align:center;
+	text-align: center; /*Moves just the title to the middle*/
 }
-
-
