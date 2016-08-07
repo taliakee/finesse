@@ -1,32 +1,35 @@
-
+<!-- Arms1.html -->
+<!-- Contents: Navbar, title, 4 videos, and view more button-->
+<!-- Overview page -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>Finesse Fitness</title>
+		<!-- For Bootstrap (navbar) -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
-		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="Arms1.css">
-		<script src="Arms1.js"></script>
-
+		<!-- Playfair Display Font -->
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
+		<!-- Linking CSS and JavaScript files -->
+		<link rel="stylesheet" type="text/css" href="Arms1.css">
+		<script src="Arms1.js"></script>
 	</head>
-
  
-	<body onload="random()">
+<body onload="random()"> <!-- Show 4 random videos when loaded -->
+		<!-- Navbar -->
 		<nav class="navbar navbar-inverse navbar-fixed-top">
   			<div class="container-fluid">
-    			<div class="navbar-header">
+    			<div class="navbar-header"> <!-- Collapsable navbar -->
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      					<span class="icon-bar"></span>
+      					<span class="icon-bar"></span>
+      					<span class="icon-bar"></span>
+      				</button>
       				<a class="navbar-brand" href="index.html">Finesse</a>
     			</div>
     			<ul class="nav navbar-nav">
@@ -37,19 +40,22 @@
     			</ul>
   			</div>
 		</nav>
+
+		<!-- Header -->
 		<h1 id="label">
 			<br>
-			Your seach results...
+			<br>
+			Your search results...
 		</h1>
-		<h1>
-			<br> <!-- DONT ADD VIDEOS HERE GO TO abs1.js -->
+
+		<!-- DONT ADD VIDEOS HERE!!! ADD TO Arms1.js AND Arms1more.html-->
+		<h1> <!-- 4 video frames, js file will fill it with 4 random videos -->
 			<iframe id="Video0" width="625" height="380" src="" frameborder="0" allowfullscreen></iframe>
 			<iframe id="Video1" width="625" height="380" src="" frameborder="0" allowfullscreen></iframe>
 			<iframe id="Video2" width="625" height="380" src="" frameborder="0" allowfullscreen></iframe>
 			<iframe id="Video3" width="625" height="380" src="" frameborder="0" allowfullscreen></iframe>
-			
 			<br>
-			<br>
+			<br> <!-- View More button to see all of the videos -->
 			<a href="Arms1more.html"><button type="button" class="btn btn-default btn-block">View More</button></a>
 		</h1>
 	</body>

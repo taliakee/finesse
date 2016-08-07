@@ -1,32 +1,33 @@
-
+/*Arms1.css*/
+/*CSS file for Arms1.html and Arms1more.html*/
 body{
-	background-color: white;
-	margin-left: 10px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif; /*Change font to Playfair Display*/
+	margin-left: 10px; /*Create are margin for the pictures so that they aren't against the edge*/
 }
 
 #label{
-	font-family: 'Playfair Display', serif;
+	text-align: center; /*Moves just the title to the middle*/
+}
+	
+img{ /*The images in Arms1more.html*/
+	opacity:0.7; 
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-img{
-	opacity:0.7;
-}
 img:hover{
-	opacity:1.0;
+	opacity: 1.0;
 }
 
-h3 span{
+h3 span{ /*Caption for images*/
 	color: white;
-	font: bold 20px/35px Helvetica, Sans-Serif;
+	font: bold 20px/30px Helvetica, Sans-Serif; 
 	letter-spacing: -1px;
-	background: rgb(0,0,0);
 	background: rgba(0,0,0,0.7);
-	padding: 10px;
+	padding: 5px;
 	position: absolute;
 	top: 1600px;
-	left: 498px;
-	width: 25%;
+	left: 480px;
+	width: 23%;
 }
-
