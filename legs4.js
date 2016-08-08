@@ -13,6 +13,7 @@ function random(){
 	var numbervid = allvids.length; //how many videos
 	var numberfeatured = 4; //number of videos displayed
 	var	randomold = []; //new array with nothing, length of 0
+	
 	for (i = 0; i < numberfeatured; i++){ //loop through to fill the displayed videos
 		var random = Math.floor(Math.random() * numbervid); //choose random number within 0-amount of videos
 		var postvid = document.getElementById("Video" + i); //get content of video0...video1...video2...

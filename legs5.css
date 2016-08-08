@@ -1,7 +1,10 @@
+/*legs5.css*/
+/*CSS file for legs5.html and legs5more.html*/
 body{
-	margin-left: 10px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif; /*Change font to Playfair Display*/
+	margin-left: 10px; /*Create are margin for the pictures so that they aren't against the edge*/
 }
-#label { 
-	text-align: center;
+
+#label{
+	text-align: center; /*Moves just the title to the middle*/
 }
