@@ -1,10 +1,10 @@
+/*Allaround2.css*/
+/*CSS file for Allaround2.html and Allaround2more.html*/
 body{
-	margin-left: 10px;
-	font-family: 'Playfair Display', serif;
-
+	font-family: 'Playfair Display', serif; /*Change font to Playfair Display*/
+	margin-left: 10px; /*Create are margin for the pictures so that they aren't against the edge*/
 }
 
-#label { 
-	font-family: 'Playfair Display', serif;
-	text-align: center;
- }
+#label{
+	text-align: center; /*Moves just the title to the middle*/
+}
