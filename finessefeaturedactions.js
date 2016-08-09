@@ -34,7 +34,7 @@ function FeaturedVideos(){ //Randomize function
 		}
 		var leglink = legvids[randomleg]; //get the link
 		postlegvid.src = leglink; //change the 
-		randomoldleg.push(randomoldleg); //stores numbers (index number)
+		randomoldleg.push(randomleg); //stores numbers (index number)
 	}
 
 	var armvids = ["https://www.youtube.com/embed/F1CohjEGbPc",
@@ -142,7 +142,7 @@ function FeaturedVideos(){ //Randomize function
 		}
 		var buttlink = buttvids[randombutt]; //get the link
 		postbuttvid.src = buttlink; //change the 
-		randomoldbutt.push(randomoldbutt); //stores numbers (index number)
+		randomoldbutt.push(randombutt); //stores numbers (index number)
 	}
 	var allaroundvids = ["https://www.youtube.com/embed/TwCBr0Dqlms", //Legs, butt, and abs
 						"https://www.youtube.com/embed/9H9qdpUzu4M",
