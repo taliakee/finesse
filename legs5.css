@@ -8,3 +8,6 @@ body{
 #label{
 	text-align: center; /*Moves just the title to the middle*/
 }
+.navbar{
+	background-color: black;
+}
