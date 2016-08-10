@@ -18,7 +18,7 @@ function random(){
 		var used = randomold.length; //how many videos used
 		var r = 0; //counter
 		while (r < used){ //loop through all of the used
-			if (random == randomold[r]){ //check if number is in the used
+			if (random == randomold[0]){ //check if number is in the used
 				random = Math.floor(Math.random() * numbervid); //changes to a random number
 				r = 0; //restart loop
 			}else{ //continue
